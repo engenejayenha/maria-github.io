@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique - Contactos</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/contactos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img src="/img/1.png" alt="logo" id="logoI"></a>
+        <button class="hamburger" id="hamburger-btn">&#9776;</button> <!-- Botón del menú hamburguesa -->
+        <nav id="navbar">
+            <button id="theme-toggle" class="theme-toggle">Modo Oscuro</button>
+            <button id="toggle-mode-btn">Cambiar Modo</button>
+            <a href="/html/acercade.html" id="acercade-link">Acerca de</a>
+            <a href="/html/ubicacion.html" id="ubicacion-link">Ubicación</a>
+            <a href="/html/historial.html" id="historial-link" style="display:none;">Ver Compras</a>
+            <a href="/html/login.html" id="login-link">Iniciar Sesión</a>
+            <a href="/html/register.html" id="register-link">Registrar</a>
+            <span id="welcome-message" style="display:none;"></span>
+            <a href="#" id="logout-link" style="display:none;">Cerrar Sesión</a>
+            <button id="cart-btn">Carrito (0)</button>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-us">
+            <div class="contact-container">
+                <h1>Contáctenos</h1>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Información de Contacto</h2>
+                        <ul>
+                            <li><i class="fa fa-phone"></i> Teléfono: <a href="tel:1234-5678">1234-5678</a></li>
+                            <li><i class="fa fa-envelope"></i> Correo: <a href="antiheroboutique@gmail.com">antiheroboutique@gmail.com</a></li>
+                            <li><i class="fa fa-map-marker"></i> Dirección: Calle Central, Aserrí, Costa Rica</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Envíenos un Mensaje</h2>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Nombre Completo" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Escriba su mensaje" rows="5" required></textarea>
+                                 </div>
+                                </div>
+                              <button type="submit">Enviar mensaje</button>
+                                </form>
+                             </div>
+                         </div>
+                     </div>
+                </section>
+            </main>
+
+            <footer>
+                <span>©Boutique Anti-hero 2024 - Todos los derechos reservados</span>
+                <div class="footerdiv">
+                    <div class="footerdiv1">
+                        <img src="/img/1.png" style="border-radius: 5px; width: 200px; height: 150px;" alt="logo">
+                    </div>
+                    <div class="footerdiv2">
+                        <h3 class="headline footer">Servicio al Cliente</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Métodos de Pago</a></li>
+                            <li><a href="#" class="hover:underline">Entregas y Devoluciones</a></li>
+                            <li><a href="#" class="hover:underline">Políticas de Cookies</a></li>
+                            <li><a href="#" class="hover:underline">Políticas de Privacidad</a></li>
+                            <li><a href="#" class="hover:underline">Términos y Condiciones</a></li>
+                            <li><a href="#" class="hover:underline">Reclamaciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerdiv2">
+                        <h3 class="headline footer ">Contáctenos</h3>
+                        <ul>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="1234-5678" class="ng-binding ">1234-5678</a></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:antiheroboutique@gmail.com" class="ng-binding">antiheroboutique@gmail.com</a></li>
+                            <li><a href="/html/contactos.html" ><i class="fa fa-comment" aria-hidden="true"></i> Contáctenos</a></li>
+                            <li> <a href="/html/preguntas.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Preguntas Frecuentes</a></li>
+                            <li><a href="/html/ubicacion.html" ><i class="fas fa-store" aria-hidden="true"></i> Tiendas</a></li>
+                            <li><a href="/html/acercade.html" ><i class="fas fa-building" aria-hidden="true"></i> ¿Quiénes Somos?</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+        <script src="/js/scripts.js"></script>
+        <script src="/js/contactenos.js"></script>
+
+        </body>
+        </html>
