@@ -55,14 +55,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Verificar si el usuario está logueado y si es admin
     if (!loggedInUser || loggedInUser !== 'admin') {
       alert('Acceso denegado. Solo el administrador puede acceder a esta página.');
-      window.location.href = '/html/index.html'; // Redirigir al index si no es admin
+      window.location.href = 'html/index.html'; // Redirigir al index si no es admin
     }
   }
   
   // Agregar los event listeners en los formularios
   document.addEventListener('DOMContentLoaded', function() {
     // Si estamos en la página de administración, verificamos el acceso
-    if (window.location.pathname.includes('/html/admin.html')) {
+    if (window.location.pathname.includes('html/admin.html')) {
       checkAdminAccess();
     }
   });
