@@ -12,7 +12,7 @@ function loginUser(event) {
     alert('Bienvenido, administrador');
     console.log("Administrador logueado");
     localStorage.setItem('loggedInUser', 'admin'); // Guardar en localStorage
-    window.location.href = '../HTML/admin.html'; // Redirigir a la página de administración
+    window.location.href = 'html/admin.html'; // Redirigir a la página de administración
     return;
   }
 
@@ -22,7 +22,7 @@ function loginUser(event) {
   if (user) {
     alert(`Bienvenido, ${user.username}`);
     localStorage.setItem('loggedInUser', username); // Guardar el nombre de usuario logueado
-    window.location.href = '../HTML/index.html'; // Redirigir a la página principal
+    window.location.href = 'index.html'; // Redirigir a la página principal
   } else {
     alert('Usuario o contraseña incorrectos');
   }
